@@ -1,0 +1,135 @@
+body{
+	margin:0;
+	font-family:Arial
+}
+
+header{
+	background-color:#8EE5FF;
+	color:white;
+	padding:1rem;
+	align-items:center;
+	justify-content:center;
+	text-align:center
+}
+
+#searchbar{
+	width:50%;
+	height:30px;
+	border-radius:10px;
+	border-color:#ffffff;
+    text-align:center;
+}
+
+.container{
+	display:flex
+}
+
+.sidebar{
+	width:200px;
+	background-color:#80E1FE;
+	color:white;
+	height:100vh;
+	padding-top:1rem;
+	margin-right: 10px;
+    vertical-align: middle;
+}
+
+.sidebar a i {
+  margin-right: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0
+}
+
+.sidebar li{
+	margin:1rem 0;
+	list-style: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.sidebar a{
+	color:white;
+	text-decoration:none;
+	padding:8px;
+	display:block
+}
+
+.main-content{
+	flex:1;
+	padding:2rem
+}
+
+#datetime-widget {
+  background-color: #8EE5FF;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: 'Segoe UI';
+  text-align: center;
+  width: 96%;
+  margin-bottom: 20px;
+}
+
+#date {
+  font-size: 22px;
+  font-weight:600;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+#clock {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.apmnt{
+	color:white;
+	width:44%;
+	height:18%;
+	float:left;
+	background-color:#A0E9FF;
+	padding:1rem;
+	border-radius:8px;
+	margin-bottom:2rem
+}
+
+.regP{
+	width:48%;
+    height:18%;
+	float:right;
+	color:white;
+	background-color:#A0E9FF;
+	padding: 1rem;
+	border-radius: 8px;
+	margin-bottom: 2rem
+}
+
+.doc_av{
+	width:44%;
+	height:18%;
+	float:left;
+	color:white;
+	background-color:#A0E9FF;
+	padding: 1rem;
+	border-radius: 8px;
+	margin-bottom: 2rem
+}
+
+.view_app{
+	width:48%;
+    height:18%;
+	float:right;
+	color:white;
+	background-color:#A0E9FF;
+	padding: 1rem;
+	border-radius: 8px;
+	margin-bottom: 2rem
+}
