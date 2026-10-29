@@ -1,29 +1,41 @@
-Overview of Project: 
-<br>
-It is a website to store the history of patients came in a doctor's clinic that website will include the login page for staff to login and handle an appointment form page which will include patient’s information. after submission the form data will be stored and receptionist needs to fill another form which stores the prescription, diagnosis etc then this form data is stored as patient history, this history is accessible on web page also a particular patient's history can be retrieved using patient id on the search bar in the main web page. The login history data is accessible for admin only.
-<br>
- 
+# Healing Hands Clinic History Management System
 
-Technologies used:<br> 
-<br>
-Front end: <br>
-HTML<br>
-CSS<br>
-JavaScript<br>
-<br>
-Back end: <br>
-PHP<br>
-<br>
-Login Ids & Passwords:<br>
-1. Admin<br>
-Id: A001<br>
-password: HHadmin:1271056<br>
-<br>
-2. Doctor<br>
-Id: D001, D002, D003, D004<br>
-password: HHdoc:32767<br>
-<br>
-3. Receptionist<br>
-Id: R001, R002<br>
-password: HHrec:76723<br>
-<br>
+### Overview of Project: 
+Healing Hands Clinic History Management System is a website to store the history of patients came in a doctor's clinic. the website includes a login page *(For receptionist, Doctor and Admin)* to login.<br><br>
+
+Receptionist has to handle an appointment form page which stores patient’s data and appointment related information, the data gets stored in the database connected to *http://localhost/phpmyadmin*.
+The moment this form is filled, this appointment is scheduled in today's apponitment list in *"View Appointments"* card.
+<br><br>
+After meeting with Doctor,  receptionist needs to fill another form which stores the prescription, diagnosis etc. This form's data is stored as patient history, this history is accessible in *"Patient's History"* section.<br><br>
+Another feature is of searching, user can search a particular patient's ID which retrives the required patient's data from patient's history data brings the user to respective data of that patient.
+The *"Login History"* section is  accessible for admin only as it is an important data.
+<br><br>
+
+---
+**This is a mini project, this project can be improved with further enhancements, such as:**
+- Automatic scheduling of appointment for the next patient.
+- Good looking user interface for the Doctor to see upcoming patient's data
+- Log-out message before leaving website.
+<br> <br>
+
+---
+### Technologies used:<br> 
+1. Frontend:
+    - HTML
+    - CSS
+    - JavaScript
+
+2. Backend:
+    - PHP
+<br><br>
+--- 
+### Required Installation:
+- XAMPP
+
+### Notes:
+
+1. You must have database created in *http://localhost/phpmyadmin*
+
+2. Set the same password in the code of connection which you would have set in **phpMyAdmin** while creating database
+
+3. Type *"http://localhost/your_folder_name/file_name(login.html)"* and the project runs.

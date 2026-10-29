@@ -35,12 +35,14 @@ if ($result->num_rows === 1) {
 		
         header("Location: dashboard.php");
 		exit();
-    } else {
+    }
+	else {
         // Wrong password → back to login page with ?error=pass
         header("Location: login.html?error=pass");
         exit();
     }
-} else {
+} 
+else {
     // Staff ID not found → back to login page with ?error=id
     header("Location: login.html?error=id");
     exit();
